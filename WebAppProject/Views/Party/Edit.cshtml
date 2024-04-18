@@ -1,0 +1,35 @@
+﻿@model Party;
+@{
+    ViewData["Title"] = "Edit";
+}
+<h1>wowwwwwwww</h1>
+<h1>wowwwwwwww</h1>
+<form method="post" asp-controller="Party" asp-action="Edit">
+    <div class="from-group">
+        <label asp-for="Name"></label>
+        <input type="text" asp-for="Name" />
+        <span asp-validation-for="Name" style="font-size: 16px; color: red"></span>
+    </div>
+    <div class="from-group">
+        <label asp-for="location"></label>
+        <input type="text" asp-for="location" />
+        <span asp-validation-for="location" style="font-size: 16px; color: red"></span>
+    </div>
+    <div class="from-group">
+        <label asp-for="Time"></label>
+        <input type="datetime-local" asp-for="Time" />
+    </div>
+    <div class="from-group">
+        <label asp-for="img">Photos</label>
+        <input type="file" asp-for="img" />
+    </div>
+    <div class="from-group">
+        <label asp-for="Max">Max People</label>
+        <input type="number" min="1" max="50" asp-for="Max" />
+    </div>
+    <div class="from-group">
+        <label asp-for="Description"></label>
+        <input type="text" asp-for="Description" />
+    </div>
+    <button type="submit" style="width: 100px; height: 50px; font-size: 16px; background-color: #4CAF50; font-size: 16px; white; border: none; border-radius: 5px; cursor: pointer; margin-top: 20px;">Submit</button>
+</form>

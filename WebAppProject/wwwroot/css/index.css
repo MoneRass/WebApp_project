@@ -1,0 +1,210 @@
+body {
+    font-family: "Mitr", sans-serif;
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+
+.logo{
+    width: 40px; /* Set the desired width for the logo */
+    margin-top: 5px;
+    position: relative; /* Change position to relative */
+    top: 50%; /* Move the image down by 50% of its own height */
+    transform: translateY(-50%); /* Adjust vertical position to center */
+}
+
+.button {
+    font-family: "Mitr", sans-serif;
+    font-size: large;
+    font-weight: 550;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgb(76,212,220);
+    color: white;
+    border: 0;
+    padding: 5px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #F2D2BA; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+
+.buttontext {
+    margin-left: 5px; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mitr", sans-serif;
+  }
+
+  .nav-links {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+  .nav-links li{
+    list-style: none;
+    margin: 0 14px;
+  }
+  .nav-links li a{
+    position: relative;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px 0;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 100px; /* Set the desired width for the logo */
+    margin-top: 40px;
+    position: relative; /* Change position to relative */
+    top: 50%; /* Move the image down by 50% of its own height */
+    transform: translateY(-50%); /* Adjust vertical position to center */
+}
+
+.profilepic img{
+    width: 35px;
+    border-radius: 50%; /* Make the image round */
+}
+
+.noti img{
+    width: 35px;
+    margin-right: 5px;
+}
+
+.inbox img{
+    width: 35px;
+    margin-right: 5px;
+}
+
+.profile-container {
+    margin-left: auto; /* Push the container to the right */
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.profilenav:hover img {
+    filter: brightness(50%); 
+    opacity: 0.7; 
+}
+
+.filter:hover{
+    filter: brightness(50%); 
+    opacity: 0.7; 
+}
+
+.drumgame img{
+    width: 35px;
+    margin-right: 5px;
+    border-radius: 50%; /* Make the image round */
+}
+
+.simongame img{
+    width: 35px;
+    margin-right: 5px;
+    border-radius: 30%; /* Make the image round */
+
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card {
+    width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: flex-start; /* Align text to the left */
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    background-color: #f9f9f9;
+}
+
+
+.explorer{
+    width: 600px;
+    margin-left: -20px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -20px;
+    background-color: #ffecac;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-radius: 20px 20px 0px 0px;
+    color: #333;
+
+}
+
+.time{
+    
+    font-size: small;
+    font-weight: 500;
+    color: gray;
+}
+
+
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.location{
+    font-size: small;
+    font-weight: 500;
+    color: gray;
+
+}
+
+.description-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 100px;
+}
+
+.description{
+    width: 300px;
+    font-size: small;
+    color: #333;
+
+}
+
+.description-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    
+}
+

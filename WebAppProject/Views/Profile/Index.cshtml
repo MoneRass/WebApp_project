@@ -1,0 +1,28 @@
+﻿@model UserData
+@{
+    ViewData["Title"] = "Profile Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <p>@Model.FirstName</p>
+    <p>@Model.LastName</p>
+    <p>@Model.Email</p>
+    <p>@Model.Birthday</p>
+
+    <a asp-controller="Profile" asp-action="Edit">Edit Profile</a>
+
+    
+
+</body>
+
+</html>
